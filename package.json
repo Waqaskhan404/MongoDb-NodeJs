@@ -1,0 +1,17 @@
+{
+  "name": "mongodbwithnodejs",
+  "version": "1.0.0",
+  "description": "Practice with Mongo and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Waqas Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
