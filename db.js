@@ -16,7 +16,7 @@ const dbConnection=async()=>{
     return db;
     }
     catch(error){
-        console.error("Failed to connect to the server :",error)
+        console.error("Failed to connect to the server :",error);
     }
     
 // We will make different file for different methods like insert,update,delete ,and find
