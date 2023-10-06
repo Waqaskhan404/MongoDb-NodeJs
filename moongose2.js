@@ -1,7 +1,11 @@
 const express=require("express");
 const mongoose=require("mongoose");
+// For Local DataBase 
+// mongoose.connect("mongodb://localhost:27017/myDataBase");
 
-mongoose.connect("mongodb://localhost:27017/myDataBase");
+// For Atlas Connection || on Server DataBase
+mongoose.connect("mongodb+srv://hammadprince404:test1234@cluster0.d5rquua.mongodb.net/?retryWrites=true&w=majority");
+
 const app=express();
 app.use(express.json());
 
